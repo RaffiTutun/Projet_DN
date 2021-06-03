@@ -1,0 +1,111 @@
+* { 
+    margin :0;
+    padding : 0;
+}
+.container{
+    width : 100%;
+    margin : auto;
+    background-color: black;
+}
+@font-face {
+    font-family: "Death Font";
+    src: url("/DEATHNOTE_Font/DEATHNOTEFont.woff") format("woff");
+}
+h1 {
+    font-family: "Death Font" ;
+    font-size:100px;
+}
+.titre{
+    text-align: center;
+    color :white;
+}
+.titre p{
+    font-size:20px;
+    margin-top: 2%;
+}
+figure{
+    margin-left:auto;
+    width:10%;
+}
+img
+{
+    height:auto;
+    max-width:150px;
+}
+.dessus{
+    text-align:center;
+}
+header{
+    margin-right:80%;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width :100%;
+    background-color: white;
+    color :black;
+    border-radius:15%;
+    font-size: 20px;
+}
+.sous{
+    display: none;
+    background-color: black;
+    width :40%;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous a{
+    text-align: center; 
+    background-color:white;
+    color :black;
+    width :150%;
+    padding: 10px;
+    font-size: 20px;
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 15px;
+}
+li{
+    list-style-type: none;
+}
+.container2{
+    display:flex;
+    width :100%;
+    margin:auto;
+    flex-direction: column;
+    margin-top:1%;
+}
+.question{
+    text-align: center;
+    background-color: black;
+    width : 95%;
+    margin : auto;
+    border-radius :30px;
+    margin-bottom: 2%;
+    color :white;
+}
+footer{
+    margin-top: 2%;
+    text-align: center;
+    color :white;
+    font-size: 18px;
+}
+.logo{
+    height:auto;
+    max-width:150px;
+    float: right;
+    position: relative;
+    border-radius: 50px;
+}
+.link{
+    color:white;
+}
+body{
+    font-size: 25px;
+}
+.form-example{
+    margin-top: 2%;
+}

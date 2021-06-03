@@ -1,0 +1,199 @@
+* { 
+    margin :0;
+    padding : 0;
+}
+@font-face {
+    font-family: "Death Font";
+    src: url("/DEATHNOTE_Font/DEATHNOTEFont.woff") format("woff");
+}
+.container{
+    width : 100%;
+    margin : auto;
+    background-color:black;
+}
+h1 {
+    color :white;
+    font-family: "Death Font" ;
+    font-size:100px;
+}
+.titre{
+    color:white;
+    text-align: center;
+}
+.titre p{
+    font-size:20px;
+    margin-top: 2%;
+}
+.logo{
+    height:auto;
+    max-width:150px;
+    float: right;
+    position: relative;
+    border-radius: 50px;
+}
+
+.dessus{
+    text-align:center;
+}
+header{
+    margin-right:80%;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width :100%;
+    background-color: white;
+    color :black;
+    border-radius:15%;
+    font-size: 20px;
+}
+.sous{
+    display: none;
+    background-color: black;
+    width :40%;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous a{
+    text-align: center; 
+    background-color:white;
+    color :black;
+    width :150%;
+    padding: 10px;
+    font-size: 20px;
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 15px;
+}
+li{
+    list-style-type: none;
+}
+.container2{
+    width :80%;
+    margin:auto;
+    margin-top:1%;
+}
+.description{
+    text-align: center;
+    color:white;
+    width : 95%;
+    margin : auto;
+}
+.link{
+    color:white;
+}
+h4{
+    font-size: 30px;
+}
+.blabla{
+    color:white;
+    text-align: center;
+    width : 95%;
+    margin :auto;
+    margin-top: 2%;
+}
+.mensonge{
+    text-align: center;
+    color:white;
+    width : 95%;
+    margin :auto;
+    margin-top: 2%;
+}
+.menace{
+    text-align:center;
+    margin:auto;
+    color:white;
+    font-size: 30px;
+    width:90%; 
+}
+.blockp{
+    margin-top:4%;
+}
+.contact{
+    text-align: center;
+    color:white;
+    width : 95%;
+    margin :auto;
+    margin-top: 2%;
+}
+.map{
+    text-align: center;
+    margin :auto;
+    margin-top: 7%;
+    width:95%;
+}
+.map h4{
+    color:white;
+}
+body{
+    font-size: 18px;
+}
+footer{
+    font-size: 18px;
+}
+@media screen and (max-width:351px){
+    body{
+        font-size: 21px;
+    }
+    .titre p{
+        font-size:20px;
+        margin-top: 10%;
+    }
+    .blockp{
+        margin-top:15%;
+    }
+    .map{
+        text-align: center;
+        margin :auto;
+        margin-top: 15%;
+        border-radius:30px;
+        width:100%;
+    }
+    iframe{
+        width:100%;
+    }
+    header{
+        margin-right:80%;
+    }
+    nav{
+        width :150px;
+    }
+    nav a{
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        width :100%;
+        background-color: white;
+        color :black;
+        border-radius:15%;
+        font-size: 20px;
+    }
+    .sous{
+        display: none;
+        background-color: black;
+        width :40%;
+    }
+    nav > ul li:hover .sous{
+        display: block;
+    }
+    .sous a{
+        text-align: center; 
+        background-color:white;
+        color :black;
+        width :150%;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .deroulant > a::after{
+        content:" ▼";
+        font-size: 15px;
+    }
+    li{
+        list-style-type: none;
+    }
+}
+
+

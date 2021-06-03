@@ -1,0 +1,193 @@
+*{
+    margin :0;
+    padding:0;
+    background-color:black;
+}
+@font-face {
+    font-family: "Death Font";
+    src: url("/DEATHNOTE_Font/DEATHNOTEFont.woff") format("woff");
+}
+h1 {
+    font-family: "Death Font" ;
+    font-size:100px;
+}
+.titre{
+    text-align: center;
+    color :white;
+}
+.titre p{
+    font-size:20px;
+    margin-top: 2%;
+}
+.imgK ,.imgL , .LotDN{
+    width:auto;
+    max-height: 8cm;
+}
+img{
+    max-width: 300px;
+}
+
+.manga{
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-left:auto;
+    margin-right:auto;
+    width:20em;
+}
+.container {
+    color:white;
+    margin:auto;
+}
+figure{
+    color:white;
+}
+.dessus{
+    text-align:center;
+}
+header{
+    margin-right:80%;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width :100%;
+    background-color: white;
+    color :black;
+    border-radius:15%;
+    font-size: 20px;
+}
+.sous{
+    display: none;
+    background-color: black;
+    width :40%;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous a{
+    text-align: center; 
+    background-color:white;
+    color :black;
+    width :150%;
+    padding: 10px;
+    font-size: 20px;
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 15px;
+}
+li{
+    list-style-type: none;
+}
+@media screen and (min-width:1200px){
+    .container2{
+        width :80%;
+        margin:auto;
+        margin-top:1%;
+    }
+    .containerboutique{
+        display:flex;
+        width :60%;
+        margin:auto;
+        margin-top:1%;
+    }
+    figcaption {
+        font-size: 16px;
+        font-style: italic;
+        color:white;
+    }
+    .article2 img{
+        margin-left: 17%;
+    }
+}
+@media screen and (max-width: 1200px){
+
+    .container2{
+        display: block;
+        margin: auto;
+    }
+    .containerboutique{
+        display: block;
+        margin: auto;
+    }
+    .Kira, .L{
+        margin-top:2%;
+        margin-bottom:2%;
+        margin:auto;
+        width:20em;
+    }
+    figcaption {
+        font-size: 16px;
+        font-style: italic;
+        color:white;
+    }
+    .article2 img{
+        margin-left: 17%;
+    }
+    .article2 figcaption{
+        text-align: center;
+    }
+}
+.containerkira{
+    width :100%;
+}
+.containerkira figcaption{
+    width: 70%;
+}
+.containerL{
+    width :100%;
+}
+.containerL figcaption{
+    width: 70%;
+}
+.container2{
+    width :100%;
+}
+.container2 figcaption{
+    width: 70%;
+}
+h4{
+    font-size: 20px;
+    font-family: "Death Font" ;
+    width :80%;
+    font-size: 35px;
+    margin-top: 2%;
+}
+footer{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 18px;
+}
+.logo{
+    height:auto;
+    max-width:150px;
+    float: right;
+    position: relative;
+    border-radius: 50px;
+}
+.vendu{
+    text-align: center;
+    color :red;
+    position :relative;
+    bottom: 300px;
+    margin-top:10%;
+    width:100%;
+    text-align: center;
+    width: 70%;
+}
+
+.link{
+    color:white;
+}
+.article{
+    margin-bottom: 3%;
+    height: 11cm;
+}
+body{
+    font-size: 20px;
+}
+.article2{
+    margin-bottom: 3%;
+    height: 11cm;
+}
